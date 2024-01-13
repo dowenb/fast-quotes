@@ -1,5 +1,13 @@
 # Fast Quotes
 
+## Install dependencies
+
+This project uses [poetry](https://python-poetry.org/) for managing dependencies.
+
+```
+poetry install
+```
+
 ## Run
 
 ```
