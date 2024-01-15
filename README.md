@@ -20,8 +20,8 @@ Note: Examples using [HTTPie](https://httpie.io/)
 
 ```
 # Add Quote
-http POST http://localhost:8000/quote who=ben what=random when=today where=today
+http POST http://localhost:8000/quote who=ben what=random when=today where=BBC
 
 # Get Random Quote
-http POST http://localhost:8000/quote
+http http://localhost:8000/quote
 ```
