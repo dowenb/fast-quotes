@@ -4,5 +4,8 @@
         "fastapi",
         "pydantic",
         "uvicorn"
-    ]
+    ],
+    "python.terminal.launchArgs": [],
+    "python.testing.cwd": "",
+    "python.analysis.fixAll": []
 }

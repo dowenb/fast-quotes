@@ -25,3 +25,15 @@ http POST http://localhost:8000/quote who=ben what=random when=today where=BBC
 # Get Random Quote
 http http://localhost:8000/quote
 ```
+
+## Lint
+
+```
+poetry run pylint
+```
+
+## Code Style
+
+```
+poetry run pycodestyle fast_quotes/main.py
+```
