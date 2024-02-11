@@ -64,6 +64,11 @@ def get_quote():
     print(random_quote)
     return random_quote
 
+@app.get("/quotes")
+def get_quotes():
+    """Get an array of all quotes"""
+    return quotes
+
 @app.post("/quote")
 async def create_quote(quote: Quote):
     """"Add a new quote"""
