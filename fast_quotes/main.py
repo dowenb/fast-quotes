@@ -18,8 +18,24 @@ firstQuote: Quote = {
     "who": "George Box"
 }
 
+secondQuote: Quote = {
+    "what": "One of the first things I cover when working with automation engineers building their first tests, either full stop or for a new project or application, is how to make their tests part of a CI build.",
+    "when": "2024",
+    "where": "LinkedIn",
+    "who": "Bas Dijkstra"
+}
+
+thirdQuote: Quote = {
+    "what": "When I first learned about eXtreme Programming 24 years ago, the publications about it were all about testing, quality, and people. And they didn't mention testers. I felt XP teams needed testing knowledge and skills, and that I, as a tester, would contribute value. I, and many others, have done so. Quite happily for everyone, including our customers!",
+    "when": "2024",
+    "where": "LinkedIn",
+    "who": "Lisa Crispin"
+}
+
 quotes = []
 quotes.append(firstQuote)
+quotes.append(secondQuote)
+quotes.append(thirdQuote)
 
 app = FastAPI()
 
